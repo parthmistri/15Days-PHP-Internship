@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Day-3: Marksheet</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 align="center">Student Marksheet</h2>
+        <form method="Post" action="mark.php">
+            <div class="form-group">
+                <label>Name :</label>
+                <input type="text" name="name" class="form-control" placeholder="Name">
+            </div>
+            <div class="form-group" ><label>Roll Number :</label>
+                <input type="number" class="form-control" placeholder="Enter Roll Number" name="roll">
+            </div>
+           
+            <div>
+                <label>Science :</label>
+                <input type="number" name="science" class="form-control"  placeholder="Enter Science Marks">
+            </div>
+            <div class="form-group">
+                <label>English :</label>
+                <input type="number" name="english" class="form-control"   placeholder="Enter English Marks">
+            </div>
+            <div class="form-group">
+                <label>Social Science :</label>
+                <input type="number" name="social_science" class="form-control"
+                 placeholder="Enter Social Science Marks">
+            </div>
+            <div class="form-group">
+                <label>Gujarati :</label>
+                <input type="number" name="gujarati" class="form-control"  placeholder="Enter Gujarati Marks">
+            </div>
+             <div class="form-group">
+                <label>Mathematics :</label>
+                <input type="number" placeholder="Enter Mathematics Marks"  class="form-control" name="maths">
+            </div>
+            <input type="submit" name="submit" class="btn btn-primary" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
